@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="China Growth Transition Lab — независимый исследовательский проект об экономической трансформации Китая.">
+<meta name="theme-color" content="#0b1f3a">
+<title>China Growth Transition Lab</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="logo" href="./">CGT<span>LAB</span></a>
+    <nav>
+      <a href="#research">Исследование</a>
+      <a href="#methods">Методы</a>
+      <a href="#data">Данные</a>
+      <a href="#updates">Обновления</a>
+      <a href="#sources">Источники</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+<div class="wrap">
+<div class="eyebrow">INDEPENDENT ECONOMIC RESEARCH · CHINA</div>
+<h1>Переход Китая<br>к новой модели роста</h1>
+<p class="lead">Исследовательский проект о том, как зависимость местных экономик от земельного финансирования может влиять на частные инвестиции и производительность после шока на рынке недвижимости.</p>
+<div class="actions"><a class="button primary" href="#research">Изучить проект</a><a class="button" href="#updates">Журнал исследования</a></div>
+<div class="hero-meta"><span>Версия 1.0</span><span>26 августа 2026</span><span>Research in progress</span></div>
+</div>
+</section>
+
+<section id="research">
+<div class="wrap">
+<div class="section-title"><div><div class="eyebrow">01 · RESEARCH</div><h2>Главный исследовательский вопрос</h2></div></div>
+<div class="question">Как исходная зависимость китайского города от земельного финансирования влияет на его способность поддерживать частные инвестиции и производительность после шока на рынке недвижимости?</div>
+<div class="cards three">
+<article><span class="number">01</span><h3>Местные финансы</h3><p>Падение земельных доходов может сокращать фискальное пространство и менять структуру государственных инвестиций.</p></article>
+<article><span class="number">02</span><h3>Кредит</h3><p>Изменение стоимости недвижимости может влиять на залоговую стоимость активов, кредит и решения частных фирм.</p></article>
+<article><span class="number">03</span><h3>Технологии</h3><p>Диверсифицированные и технологичные города могут легче перераспределять капитал в новые отрасли.</p></article>
+</div>
+</div>
+</section>
+
+<section id="methods" class="light">
+<div class="wrap">
+<div class="eyebrow">02 · IDENTIFICATION</div><h2>Как проверяется гипотеза</h2>
+<div class="method-grid">
+<div class="panel"><h3>Базовая модель</h3><pre>Yᵢₜ = αᵢ + λₜ
+    + β(Exposureᵢ × Postₜ)
+    + γXᵢₜ + εᵢₜ</pre><p>β показывает, отличается ли динамика городов с разной исходной экспозицией после общего property shock.</p></div>
+<div class="panel"><h3>Проверки</h3><ul><li>event study и pre-trends</li><li>province × year fixed effects</li><li>placebo periods</li><li>spatial spillovers</li><li>alternative exposure measures</li><li>удаление крупнейших городов</li></ul></div>
+</div>
+</div>
+</section>
+
+<section id="data">
+<div class="wrap">
+<div class="eyebrow">03 · DATA</div><h2>Архитектура базы данных</h2>
+<p class="sub">Каждая переменная получает определение, источник, единицу измерения и правило очистки.</p>
+<div class="cards three">
+<article><h3>Местные финансы</h3><p>Земельные доходы, бюджетные доходы, расходы, fiscal stress и прокси долговой нагрузки.</p></article>
+<article><h3>Недвижимость</h3><p>Продажи, инвестиции, starts, цены и другие индикаторы property cycle.</p></article>
+<article><h3>Инвестиции</h3><p>FAI, private FAI, manufacturing investment и отраслевые показатели.</p></article>
+<article><h3>Производительность</h3><p>Выпуск на работника, TFP-прокси, промышленная структура и занятость.</p></article>
+<article><h3>Демография</h3><p>Население, миграция, возрастная структура и изменение labour supply.</p></article>
+<article><h3>Технологии</h3><p>R&amp;D, high-tech output, патенты и технологическая специализация.</p></article>
+</div>
+</div>
+</section>
+
+<section class="dark">
+<div class="wrap">
+<div class="eyebrow">04 · RESEARCH THESIS</div>
+<h2>Ниша исследования</h2>
+<p class="thesis">Land dependence → local fiscal stress → private investment → productivity</p>
+<p class="muted-light">Цель проекта — не доказать заранее выбранный тезис, а проверить его на детальной городской панели Китая и показать, где именно старая модель роста перестаёт работать.</p>
+</div>
+</section>
+
+<section id="updates">
+<div class="wrap">
+<div class="eyebrow">05 · RESEARCH LOG</div><h2>Журнал исследования</h2>
+<div class="timeline">
+<div class="entry"><time>26.08.2026</time><div><h3>Версия 1.0 · Исследовательский дизайн</h3><p>Сформулирован causal question, механизмы и baseline identification strategy.</p><b class="published">● Опубликовано</b></div></div>
+<div class="entry"><time>Следующий этап</time><div><h3>Сбор городской панели Китая</h3><p>Гармонизация данных по городам, создание codebook и первичной GIS-базы.</p></div></div>
+<div class="entry"><time>Будущее</time><div><h3>Первые результаты</h3><p>Descriptive statistics, карты уязвимости, event study и robustness tests.</p></div></div>
+</div>
+</div>
+</section>
+
+<section id="sources" class="light">
+<div class="wrap">
+<div class="eyebrow">06 · RESEARCH LIBRARY</div><h2>Основные источники</h2>
+<div class="sources">
+<div><b>National Bureau of Statistics of China</b><p>Макроэкономические, отраслевые и региональные статистические данные.</p></div>
+<div><b>International Monetary Fund</b><p>Анализ недвижимости, потребления, местных финансов и структурных реформ.</p></div>
+<div><b>World Bank</b><p>Данные и исследования по росту, производительности и структурной трансформации.</p></div>
+<div><b>NBER Working Papers</b><p>Академические исследования причинных механизмов экономики Китая.</p></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap footer"><div><b>China Growth Transition Lab</b><p>Независимый исследовательский проект · 2026</p></div><div><a href="https://github.com/" target="_blank" rel="noopener">Исходный код →</a></div></div></footer>
+</body>
+</html>
